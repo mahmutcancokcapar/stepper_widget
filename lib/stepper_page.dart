@@ -43,7 +43,7 @@ class _StepperClassState extends State<StepperClass> {
           steps: [
             Step(
               isActive: _currentStep == 0,
-              title: const Text('Başlık'),
+              title: const Text('Step 1'),
               content: const Text('Açıklama 1'),
             ),
             Step(
