@@ -54,12 +54,12 @@ class _StepperClassState extends State<StepperClass> {
             Step(
               isActive: _currentStep == 2,
               title: const Text('Step 3'),
-              content: const Text('Açıklama 1'),
+              content: const Text('Açıklama 3'),
             ),
             Step(
               isActive: _currentStep == 3,
               title: const Text('Step 4'),
-              content: const Text('Açıklama 1'),
+              content: const Text('Açıklama 4'),
             ),
           ],
           controlsBuilder: (context, details) {
